@@ -19,6 +19,7 @@ body {
   height: 15rem;
   border-radius: 0.5rem;
   background-color: lightgray;
+  background-size: cover;
 }
 
 .image--input {
