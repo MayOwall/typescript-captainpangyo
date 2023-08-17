@@ -1,0 +1,43 @@
+body {
+  width: 99vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.container {
+  text-align: center;
+}
+.title {
+  font-size: 2rem;
+  color: #3074fb;
+}
+.box {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  background-color: lightgray;
+}
+
+.image--input {
+  display: none;
+}
+.image--button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.15s ease-in all;
+}
+.image--button:hover {
+  background-color: rgb(193, 193, 193);
+}
+.image--button--icon {
+  width: 5rem;
+  height: 5rem;
+  opacity: 30%;
+  -webkit-user-drag: none;
+}
